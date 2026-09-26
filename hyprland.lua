@@ -1,0 +1,17 @@
+require("hyprland/animation")
+require("hyprland/general")
+require("hyprland/rule")
+require("hyprland/keybind")
+
+hl.env("XCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_SIZE", "24")
+
+hl.on("hyprland.start", function ()
+   hl.exec_cmd("caelestia-shell")
+   hl.exec_cmd("hypridle")
+   hl.exec_cmd("systemctl --user start hyprpolkitagent")
+   hl.exec_cmd("dbus-update-activation-environment --all")
+   hl.exec_cmd("hyprctl setcursor Bibata-Modern-Classic 24")
+   hl.exec_cmd("wl-paste --type text --watch cliphist store")
+   hl.exec_cmd("wl-paste --type image --watch cliphist store")
+end)
