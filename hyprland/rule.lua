@@ -63,11 +63,6 @@ hl.window_rule({
 })
 
 hl.window_rule({
-    match = { class = "foot" },
-    animation = "slide bottom",
-})
-
-hl.window_rule({
     match = { class = "mpv" },
     animation = "slide bottom",
 })

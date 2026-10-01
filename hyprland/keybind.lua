@@ -1,5 +1,4 @@
 local terminal        = "kitty"
-local terminal2       = "foot"
 local fileManager     = "dolphin"
 local menu            = "rofi -show drun"
 local browser         = "brave"
@@ -15,7 +14,6 @@ hl.bind("SUPER + J", hl.dsp.layout("togglesplit")) -- dwindle only
 
 -- Apps
 hl.bind("SUPER + Q", hl.dsp.exec_cmd(terminal))
-hl.bind("SUPER + Return", hl.dsp.exec_cmd(terminal2))
 hl.bind("SUPER + E", hl.dsp.exec_cmd(fileManager))
 hl.bind("SUPER + R", hl.dsp.exec_cmd(menu))
 hl.bind("SUPER + B", hl.dsp.exec_cmd(browser))
@@ -35,7 +33,7 @@ hl.bind("SUPER + F", hl.dsp.exec_cmd("hyprshot -m region -o $HOME/Pictures/Scree
 hl.bind("SUPER + G", hl.dsp.exec_cmd("hyprshot -m window -o $HOME/Pictures/Screenshots"))
 hl.bind("SUPER + H", hl.dsp.exec_cmd("hyprshot -m output -o $HOME/Pictures/Screenshots"))
 
--- caelestia-shell
+-- Caelestia-shell
 hl.bind("SUPER + W", hl.dsp.global("caelestia:launcher"))
 hl.bind("SUPER + L", hl.dsp.global("caelestia:lock"))
 hl.bind("SUPER + T", hl.dsp.global("caelestia:dashboard"))
