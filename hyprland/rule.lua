@@ -58,21 +58,6 @@ hl.window_rule({
 })
 
 hl.window_rule({
-    match = { class = "kitty" },
-    animation = "slide bottom",
-})
-
-hl.window_rule({
     match = { class = "mpv" },
-    animation = "slide bottom",
-})
-
-hl.window_rule({
-    match = { class = "com.obsproject.Studio" },
-    animation = "slide bottom",
-})
-
-hl.window_rule({
-    match = { class = "md.obsidian.Obsidian" },
     animation = "slide bottom",
 })

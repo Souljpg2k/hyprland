@@ -17,7 +17,7 @@ hl.curve("linear", {
 })
 hl.curve("almostLinear", {
     type = "bezier",
-    points = { { 0.2, 0.6 }, { 0, 1 } }
+    points = { { 0.2, 0.8 }, { 0, 1 } }
 })
 hl.curve("quick", {
     type = "bezier",
