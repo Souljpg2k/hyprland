@@ -17,7 +17,7 @@ hl.curve("linear", {
 })
 hl.curve("almostLinear", {
     type = "bezier",
-    points = { { 0.1, 1 }, { 0, 1 } }
+    points = { { 0.2, 0.6 }, { 0, 1 } }
 })
 hl.curve("quick", {
     type = "bezier",
@@ -115,7 +115,7 @@ hl.animation({
 hl.animation({
     leaf = "workspaces",
     enabled = true,
-    speed = 8,
+    speed = 10,
     bezier = "almostLinear",
     style = "slide"
 })
